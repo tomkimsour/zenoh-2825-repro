@@ -1,0 +1,10 @@
+[package]
+name = "zenoh-2825-repro"
+version = "0.1.0"
+edition = "2021"
+description = "Reproduces zenoh#2825 (ExprId exhaustion freeze) against an unfixed and a fixed zenoh"
+license = "EPL-2.0 OR Apache-2.0"
+publish = false
+
+[workspace]
+exclude = ["scenario-before", "scenario-after", "zenoh-before", "zenoh-after"]

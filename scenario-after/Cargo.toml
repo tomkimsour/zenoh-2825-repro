@@ -1,0 +1,17 @@
+[package]
+name = "scenario-after"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "scenario-after"
+path = "../scenario/main.rs"
+
+[dependencies]
+zenoh = { path = "../zenoh-after/zenoh" }
+
+[profile.release]
+debug = false
+
+[workspace]

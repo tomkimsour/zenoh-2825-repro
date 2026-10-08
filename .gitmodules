@@ -1,0 +1,8 @@
+[submodule "zenoh-before"]
+	path = zenoh-before
+	url = https://github.com/eclipse-zenoh/zenoh.git
+	branch = main
+[submodule "zenoh-after"]
+	path = zenoh-after
+	url = https://github.com/tomkimsour/zenoh.git
+	branch = fix/2825-reclaim-expr-ids

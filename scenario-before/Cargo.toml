@@ -1,0 +1,17 @@
+[package]
+name = "scenario-before"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "scenario-before"
+path = "../scenario/main.rs"
+
+[dependencies]
+zenoh = { path = "../zenoh-before/zenoh" }
+
+[profile.release]
+debug = false
+
+[workspace]
